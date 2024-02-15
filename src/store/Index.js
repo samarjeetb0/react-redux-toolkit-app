@@ -2,8 +2,6 @@ import { configureStore } from "@reduxjs/toolkit";
 import  counterSlice from './Counter';
 import  privacySlice from './Privacy';
 
-
-
 const counterStore = configureStore({
   reducer: {
     counter: counterSlice.reducer,
